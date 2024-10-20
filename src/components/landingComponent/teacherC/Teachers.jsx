@@ -26,7 +26,7 @@ const Teachers = () => {
     <div>
 
 
-      <div className="hidden xl:block my-36 h-[370px]">
+      <div className="hidden xl:block mb-36 h-[370px]">
         <div className='blueKadr h-full w-full flex justify-center gap-[20%]'>
 
           <div className='mt-[100px]'>

@@ -12,7 +12,7 @@ const Khadamat = () => {
         <>
         <div>
 
-            <div className="hidden xl:block mb-14">
+            <div className="hidden xl:block mb-36">
                 <div className='mx-auto flex justify-center mb-4'>
                     <img className='w-5 h-5 mt-3 ml-2' src="../../../../public/imgLand/Ellipse 5.png"/>
                     <h1 className='text-4xl font-extrabold'>
