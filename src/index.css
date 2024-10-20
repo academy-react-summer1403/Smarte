@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face{
+  src: url('../public/fonts/BYekan+.ttf');
+  font-family: yek;
+}
+
+@font-face{
+  src: url('../public/fonts/BYekan+\ Bold.ttf');
+  font-family: yekBold;
+}
+
+body{
+  direction: rtl;
+  font-family: yek;
+  background: url('../public/imgLand/35afb8139d620f0de922ec43c1c60796.png');
+}
+.blueKadr{
+  background: url('../public/imgLand/kadr-1.png') no-repeat;
+  background-size: 100% 100%;
+}
