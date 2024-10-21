@@ -24,11 +24,46 @@ const Teachers = () => {
 
   return (
     <div>
+      
+      
+      <div className="block lg:hidden mb-36">
 
+        <div className='h-full w-full'>
+          <div className='mb-10'>
+            <div className='justify-center flex gap-2'>
+              <h1 className='text-2xl'>  برترین اساتید  </h1>
+              <h2 className='text-xl text-lime-800 leading-loose'>  رو همینجا پیدا می کنید !!  </h2>
+            </div>
+            <h3 className='text-md text-gray-600 leading-loose text-center'>  بر جسته ترین اساتید بزرگترین مجموعه برنامه نویسی استان مازندران رو بهتر بشناسیم !  </h3>
+          </div>
 
-      <div className="hidden xl:block my-36 h-[370px]">
+          <div className="relative w-[280px] h-[370px] max-w-xl mx-auto">
+            <div className="overflow-hidden rounded-[20px]">
+              {slides.map((slide, index) => (
+                <div
+                  key={slide.id}
+                  className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
+                    index === currentSlide ? 'opacity-100' : 'opacity-0'
+                  }`}
+                >
+                  <img src={slide.image} alt={slide.title} className="w-full h-full rounded-[20px]" />
+                </div>
+              ))}
+            </div>
+            <button onClick={prevSlide} className="absolute left-0 top-[160px] transform -translate-y-1/2 py-2 rounded-l-lg">
+              <img className='rotate-180 h-[50px] w-[30px]' src={right} />
+            </button>
+            <button onClick={nextSlide} className="absolute right-0 top-[160px] transform -translate-y-1/2 py-2 rounded-r-lg">
+              <img className='h-[50px] w-[30px]' src={right} />
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="hidden lg:block mb-36 h-[370px]">
+
         <div className='blueKadr h-full w-full flex justify-center gap-[20%]'>
-
           <div className='mt-[100px]'>
             <div className='w-[447px] flex gap-2'>
               <h1 className='text-4xl'>  برترین اساتید  </h1>
@@ -57,9 +92,8 @@ const Teachers = () => {
               <img className='h-[50px] w-[30px]' src={right} />
             </button>
           </div>
-
-
         </div>
+
       </div>
 
     </div>
