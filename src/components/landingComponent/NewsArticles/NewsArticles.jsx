@@ -6,10 +6,9 @@ const NewsArticles = () => {
     return (
         <div className="title-section">
             <div className="title-container">
+            <div className="circle"></div>
                 <div className="title">اخبار و مقالات</div>
-                <div className="circle">
-                    <span className="circle-text"></span> 
-                </div>
+                
             </div>
             <div className="subtitle"> !خودت را با خبر کن</div>
 

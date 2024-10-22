@@ -8,10 +8,9 @@ const Podcast = () => {
     return (
         <div className="title-section">
             <div className="podcast-container">
+            <div className="podcast-circle"></div>
                 <div className="podcast-title">پادکست ها</div>
-                <div className="podcast-circle">
-                    <span className="podcast-circle-text"></span> 
-                </div>
+                
             </div>
             <div className="subtitle">مجموعه‌ای از تمام آنچه شما نیاز دارید</div>
 
