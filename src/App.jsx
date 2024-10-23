@@ -5,8 +5,13 @@ import Layout from './components/Layout/Layout/';
 
 function App() {
   const router = createBrowserRouter([
-    {path: '/',element: (<Layout> <Landing /> </Layout>),},]);
-  return (
+    {path:'/' , element:<Layout/>,
+      children:[
+        {path:'/' , element:<Landing/>},
+      ]
+    }
+  ])
+  return(
     <>
       <RouterProvider router={router} />
     </>

@@ -2,13 +2,14 @@
 import React from 'react';
 import Header from '../../components/common/Header/Header';
 import Footer from '../../components/common/Footer/Footer';
+import { Outlet } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
-const Layout = ({ children }) => {
+const Layout = () => {
     return (
         <>
             <Header />
-            <main>{children}</main>
+            <Outlet/>
             <Footer />
         </>
     );
