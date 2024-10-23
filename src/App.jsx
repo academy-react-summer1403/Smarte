@@ -1,6 +1,6 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Landing from './Screen/landing/landing';
+import Landing from './Screens/landing/landing';
 import Layout from './components/Layout/Layout/';
 
 function App() {
