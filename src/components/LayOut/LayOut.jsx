@@ -1,13 +1,18 @@
-import { Outlet } from "react-router-dom";
-import Header from "../landingComponent/header/Header";
-import Footer from "../landingComponent/footer/Footer";
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import Header from '../../components/common/Header/Header';
+import Footer from '../../components/common/Footer/Footer';
+import { Outlet } from 'react-router-dom';
 
-const LayOut = () => {
-    return ( <>
-        <Header/>
-        <Outlet/>
-        <Footer/>
-    </> );
-}
- 
-export default LayOut;
+// eslint-disable-next-line react/prop-types
+const Layout = () => {
+    return (
+        <>
+            <Header />
+            <Outlet/>
+            <Footer />
+        </>
+    );
+};
+
+export default Layout;

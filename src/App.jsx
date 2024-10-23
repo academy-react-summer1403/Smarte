@@ -1,25 +1,21 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import LayOut from './components/LayOut/LayOut'
-import Landing from './Screen/landing/landing'
+import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Landing from './Screen/landing/landing';
+import Layout from './components/Layout/Layout/';
 
 function App() {
-
   const router = createBrowserRouter([
-    {path:'/' , element:<LayOut/> , 
+    {path:'/' , element:<Layout/>,
       children:[
         {path:'/' , element:<Landing/>},
       ]
     }
   ])
-
-  return (
+  return(
     <>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
