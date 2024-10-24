@@ -2,6 +2,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import './Header.css'
+import Logo from '../../../assets/images/logo.png'
+import ShoppingBagIcon from '../../../assets/images/Shopping Bag.png'
 
 const Header = () => {
   const [activeTitle, setActiveTitle] = useState('صفحه نخست')
@@ -17,7 +19,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='header-right'>
-        <img src='/images/logo.png' alt='Logo' className='logo' />
+        <img src={Logo} alt='Logo' className='logo' />
       </div>
 
       <div className='header-center'>
@@ -47,7 +49,7 @@ const Header = () => {
           </svg>
         </button>
         <button className='nav-button cart-button'>
-          <img src='/images/Shopping Bag.png'></img>
+          <img src={ShoppingBagIcon} alt='Shopping Bag' />
         </button>
 
         <button className='nav-button account-button'>

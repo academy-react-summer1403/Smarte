@@ -2,18 +2,15 @@
 import React from 'react'
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faInstagram,
-  faTelegram,
-  faYoutube,
-  faLinkedin
-} from '@fortawesome/free-brands-svg-icons'
+import {faInstagram,faTelegram,faYoutube,faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import Logo from '../../../assets/images/logo.png'
+import Samandehi from '../../../assets/images/samandehi-ezgif 1.png'
 
 const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer-logo'>
-        <img src='/images/logo.png' alt='Logo' className='logo' />
+        <img src={Logo} alt='Logo' className='logo' />
       </div>
       <p className='footer-text'>
         مجموعه آموزشی فلان فعالیت خود را از سال ۱۳۹۰ آغاز کرده است و امروز به
@@ -34,7 +31,7 @@ const Footer = () => {
         <li> تماس با ما</li>
       </ul>
       <div className='image-box'>
-        <img src='/images/samandehi-ezgif 1.png' />
+        <img src={Samandehi} alt='Samandehi' />
       </div>
       <div className='footer-content'>
         <div className='footer-buttons'>

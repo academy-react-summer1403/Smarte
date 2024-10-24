@@ -1,6 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './NewsArticles.css'
+import Image1 from '../../../assets/images/Rectangle 37.png'
+import Image2 from '../../../assets/images/Rectangle 38.png'
+import Image3 from '../../../assets/images/Rectangle 41.png'
+import Image4 from '../../../assets/images/Rectangle 40.png'
+import Image5 from '../../../assets/images/Rectangle 42.png'
+import Image6 from '../../../assets/images/Rectangle 43.png'
+import ArrowIcon from '../../../assets/images/Frame(6).png'
 
 const NewsArticles = () => {
   return (
@@ -14,7 +21,7 @@ const NewsArticles = () => {
       <div className='gallery'>
         <div className='square'>
           <div className='image-container'>
-            <img src='/images/Rectangle 37.png' alt='تصویر 1' />
+            <img src={Image1} alt='تصویر 1' />
             <div className='overlay'>
               <button className='more-info-btn'>مطالعه مطلب</button>
             </div>
@@ -26,7 +33,7 @@ const NewsArticles = () => {
 
         <div className='square'>
           <div className='image-container'>
-            <img src='/images/Rectangle 38.png' alt='تصویر 2' />
+            <img src={Image2} alt='تصویر 2' />
             <div className='overlay'>
               <button className='more-info-btn'>مطالعه مطلب</button>
             </div>
@@ -38,11 +45,7 @@ const NewsArticles = () => {
 
         <div className='rectangle'>
           <div className='image-container'>
-            <img
-              src='/images/Rectangle 41.png'
-              alt='تصویر 3'
-              className='rectangle-images'
-            />
+            <img src={Image3} alt='تصویر 3' className='rectangle-images' />
             <div className='overlay-rectangle'>
               <button className='more-info-btn'>مطالعه مطلب</button>
             </div>
@@ -54,11 +57,7 @@ const NewsArticles = () => {
 
         <div className='rectangle'>
           <div className='image-container'>
-            <img
-              src='/images/Rectangle 40.png'
-              alt='تصویر 4'
-              className='rectangle-images'
-            />
+            <img src={Image4} alt='تصویر 4' className='rectangle-images' />
             <div className='overlay-rectangle'>
               <button className='more-info-btn'>مطالعه مطلب</button>
             </div>
@@ -70,7 +69,7 @@ const NewsArticles = () => {
 
         <div className='square mt-custom'>
           <div className='image-container'>
-            <img src='/images/Rectangle 42.png' alt='تصویر 5' />
+            <img src={Image5} alt='تصویر 5' />
             <div className='overlay'>
               <button className='more-info-btn'>مطالعه مطلب</button>
             </div>
@@ -82,7 +81,7 @@ const NewsArticles = () => {
 
         <div className='square mt-custom'>
           <div className='image-container'>
-            <img src='/images/Rectangle 43.png' alt='تصویر 6' />
+            <img src={Image6} alt='تصویر 6' />
             <div className='overlay'>
               <button className='more-info-btn'>مطالعه مطلب</button>
             </div>
@@ -94,7 +93,7 @@ const NewsArticles = () => {
       <div className='button-section mt-custom'>
         <button className='view-more-btn'>
           مشاهده بیشتر
-          <img src='/images/Frame(6).png' alt='برگشت' className='arrow' />
+          <img src={ArrowIcon} alt='برگشت' className='arrow' />
         </button>
       </div>
     </div>

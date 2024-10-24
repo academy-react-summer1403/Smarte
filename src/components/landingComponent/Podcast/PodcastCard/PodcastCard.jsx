@@ -1,8 +1,8 @@
-// PodcastCard.jsx
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react'
 import { FaHeart, FaEye, FaClock } from 'react-icons/fa'
 import './PodcastCard.css'
+import PodcastImage from '../../../../assets/images/Rectangle 36.png' // ایمپورت تصویر
 
 const podcasts = [
   {
@@ -79,7 +79,7 @@ const PodcastCard = () => {
       <h2 className='box-title'>{podcast.title}</h2>
       <p className='box-description'>{podcast.description}</p>
       <div className='right-box'>
-        <img src='/images/Rectangle 36.png'></img>
+        <img src={PodcastImage} alt='پادکست تصویر' />
       </div>
 
       <div className='stats'>
