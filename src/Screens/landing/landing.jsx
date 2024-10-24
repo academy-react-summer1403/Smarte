@@ -7,13 +7,13 @@ import Template from "../../components/landingComponent/favorite sorts/template"
 import Cadr from "../../components/landingComponent/title/Cadr";
 const Landing = () => {
     return ( <>
+        <Cadr/>
+        <Template/>
+        <Courses/>
         <Teachers/>
         <Khadamat/>
         <NewsArticles/>
         <Podcast/>
-        <Courses/>
-        <Template/>
-        <Cadr/>
     </> );
 }
  
