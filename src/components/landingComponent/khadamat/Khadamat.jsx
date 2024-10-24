@@ -1,11 +1,11 @@
-import Group3 from '../../../../public/imgLand/Group 3.png';
-import Group4 from '../../../../public/imgLand/Group 4.png';
-import Group5 from '../../../../public/imgLand/Group 5.png';
-import Group6 from '../../../../public/imgLand/Group 6.png';
-import Rec12 from '../../../../public/imgLand/Rectangle 12.png';
-import Rec13 from '../../../../public/imgLand/Rectangle 13.png';
-import Rec14 from '../../../../public/imgLand/Rectangle 14.png';
-import Rec15 from '../../../../public/imgLand/Rectangle 15.png';
+import Group3 from '../../../../public/imgLand/Group 3.png'
+import Group4 from '../../../../public/imgLand/Group 4.png'
+import Group5 from '../../../../public/imgLand/Group 5.png'
+import Group6 from '../../../../public/imgLand/Group 6.png'
+import Rec12 from '../../../../public/imgLand/Rectangle 12.png'
+import Rec13 from '../../../../public/imgLand/Rectangle 13.png'
+import Rec14 from '../../../../public/imgLand/Rectangle 14.png'
+import Rec15 from '../../../../public/imgLand/Rectangle 15.png'
 
 const Khadamat = () => {
     return (
@@ -244,10 +244,10 @@ const Khadamat = () => {
                 <p className='text-xl font-bold text-slate-500 text-center mb-10'>
                     مجموعه ای از تمام آنچه شما نیاز دارید
                 </p>
-                <div className='flex justify-center'>
-                    <div className="w-1/6 h-[260px] relative mt-[130px] ml-[2%]">
+                <div className='flex justify-center gap-10'>
+                    <div className="w-1/6 h-[260px] relative mt-[100px]">
                         <img className='mx-auto mt-[5%]' src={Group6} />
-                        <img className='absolute right-[7.5%] bottom-[10%] w-[85%] h-[65%]' src={Rec15} />
+                        <img className='absolute bottom-[10%] w-full h-[65%]' src={Rec15} />
                         <div className='relative w-24 mx-auto mt-3 mb-[65px]'>
                             <h2 className='z-10 absolute text-3xl font-extrabold'>
                                 مشاوره  
@@ -260,9 +260,9 @@ const Khadamat = () => {
                         </div>
                     </div>
 
-                    <div className="w-1/6 h-[260px] relative mb-[130px] ml-[2%]">
+                    <div className="w-1/6 h-[260px] relative mb-[100px]">
                         <img className='mx-auto mt-[5%]' src={Group5} />
-                        <img className='absolute right-[7.5%] bottom-[10%] w-[85%] h-[65%]' src={Rec14} />
+                        <img className='absolute bottom-[10%] w-full h-[65%]' src={Rec14} />
                         <div className='relative w-24 mx-auto mt-3 mb-[65px]'>
                             <h2 className='z-10 absolute text-3xl font-extrabold'>
                                 مشاوره  
@@ -275,9 +275,9 @@ const Khadamat = () => {
                         </div>
                     </div>
 
-                    <div className="w-1/6 h-[260px] relative mt-[130px] ml-[2%]">
+                    <div className="w-1/6 h-[260px] relative mt-[100px]">
                         <img className='mx-auto mt-[5%]' src={Group4} />
-                        <img className='absolute right-[7.5%] bottom-[10%] w-[85%] h-[65%]' src={Rec13} />
+                        <img className='absolute bottom-[10%] w-full h-[65%]' src={Rec13} />
                         <div className='relative w-24 mx-auto mt-3 mb-[65px]'>
                             <h2 className='z-10 absolute text-3xl font-extrabold'>
                                 مشاوره  
@@ -290,9 +290,9 @@ const Khadamat = () => {
                         </div>
                     </div>
 
-                    <div className="w-1/6 h-[260px] relative mb-[130px]">
+                    <div className="w-1/6 h-[260px] relative mb-[100px]">
                         <img className='mx-auto mt-[5%]' src={Group3} />
-                        <img className='absolute right-[7.5%] bottom-[10%] w-[85%] h-[65%]' src={Rec12} />
+                        <img className='absolute bottom-[10%] w-full h-[65%]' src={Rec12} />
                         <div className='relative w-24 mx-auto mt-3 mb-[65px]'>
                             <h2 className='z-10 absolute text-3xl font-extrabold'>
                                 مشاوره  
@@ -305,17 +305,10 @@ const Khadamat = () => {
                         </div>
                     </div>                    
                 </div>
-
-
-            </div>
-
-
-
-
+          </div>
         </div>
-        
-        </>
-    );
+    </>
+  )
 }
- 
-export default Khadamat;
+
+export default Khadamat
