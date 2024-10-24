@@ -1,13 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './NewsArticles.css'
-import Image1 from '../../../assets/images/Rectangle 37.png'
-import Image2 from '../../../assets/images/Rectangle 38.png'
-import Image3 from '../../../assets/images/Rectangle 41.png'
-import Image4 from '../../../assets/images/Rectangle 40.png'
-import Image5 from '../../../assets/images/Rectangle 42.png'
-import Image6 from '../../../assets/images/Rectangle 43.png'
-import ArrowIcon from '../../../assets/images/Frame(6).png'
+import {Image1,Image2,Image3,Image4,Image5,Image6,ArrowIcon } from '../../../core/data/img'
 
 const NewsArticles = () => {
   return (

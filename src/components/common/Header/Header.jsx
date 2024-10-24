@@ -2,8 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import './Header.css'
-import Logo from '../../../assets/images/logo.png'
-import ShoppingBagIcon from '../../../assets/images/Shopping Bag.png'
+import { Logo, ShoppingBagIcon } from '../../../core/data/img'
 
 const Header = () => {
   const [activeTitle, setActiveTitle] = useState('صفحه نخست')

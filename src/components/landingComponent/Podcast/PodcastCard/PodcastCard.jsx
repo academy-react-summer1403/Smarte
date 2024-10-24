@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import { FaHeart, FaEye, FaClock } from 'react-icons/fa'
 import './PodcastCard.css'
-import PodcastImage from '../../../../assets/images/Rectangle 36.png' // ایمپورت تصویر
+import{PodcastImage} from '../../../../core/data/img'
 
 const podcasts = [
   {

@@ -9,7 +9,7 @@ function App () {
       path: '/',
       element: (
         <Layout>
-          {' '}<Landing />{' '}
+          <Landing />
         </Layout>
       )
     }
