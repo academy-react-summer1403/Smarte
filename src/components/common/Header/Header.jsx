@@ -2,8 +2,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import './Header.css'
-import Logo from '../../assets/images/logo.png'
-import ShoppingBagIcon from '../../assets/images/Shopping Bag.png'
+import Logo from '../../../assets/images/logo.png'
+import ShoppingBagIcon from '../../../assets/images/Shopping Bag.png'
 
 
 const Header = () => {
