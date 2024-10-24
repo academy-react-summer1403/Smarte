@@ -3,7 +3,8 @@ import React from 'react'
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faTelegram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { Logo, Samandehi } from '../../../core/data/img'
+import Logo from '../../assets/images/logo.png'
+import Samandehi from '../../assets/images/samandehi-ezgif 1.png'
 
 const Footer = () => {
   return (
