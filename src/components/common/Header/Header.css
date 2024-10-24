@@ -80,23 +80,24 @@
     color: #ffffff;
   }
   
-  .account-icon {
-    width: 20px; 
-    height: 20px;
-    margin-right: 5px;
-  }
+  
   
   .logo {
     height: 50px; }
   
-  .heart-icon,
-  .cart-icon {
-    width: 25px; 
-    height: 25px; 
-  }
+  
   
   .cart-button:hover,
   .heart-button:hover {
     background-color: rgba(16, 198, 198, 0.2); 
   }
-  
+  .heart-icon,
+  .cart-icon {
+    width: 20px; 
+    height: 20px; 
+  }
+  .account-icon {
+    width: 20px; 
+    height: 20px;
+    margin-right: 5px;
+  }
