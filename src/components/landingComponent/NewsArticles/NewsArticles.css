@@ -188,6 +188,7 @@
     display: flex;
     align-items: center; 
     transition: color 0.3s ease; 
+    margin-top: 50px;
 }
 
 .view-more-btn:hover {
@@ -198,6 +199,8 @@
     font-size: 17px;
     margin: 5px; 
     color: #6c757d; 
+    width: 17px;
+  height: 14px;
 }
 
 .arrow:hover {

@@ -79,8 +79,9 @@ const NewsArticles = () => {
             
             <div className="button-section mt-custom">
                 <button className="view-more-btn">
-                    <span className="arrow"> &lt; </span> 
+                   
                     مشاهده بیشتر
+                    <img src="/images/Frame(6).png" alt="برگشت" className='arrow' />
                 </button>
             </div>
         </div>
