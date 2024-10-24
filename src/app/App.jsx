@@ -1,7 +1,7 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Landing from './Screens/landing/landing'
-import Layout from './components/Layout/Layout/'
+import Landing from '../screens/landing/landing/'
+import Layout from './LayOut/index'
 
 function App () {
   const router = createBrowserRouter([
@@ -9,8 +9,7 @@ function App () {
       path: '/',
       element: (
         <Layout>
-          {' '}
-          <Landing />{' '}
+          {' '}<Landing />{' '}
         </Layout>
       )
     }
